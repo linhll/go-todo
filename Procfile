@@ -1,1 +1,1 @@
-web: bin/go-todo
+web: bin/todo-backend

@@ -1,4 +1,4 @@
-module github.com/linhll/go-todo
+module github.com/tl-dream-team/todo-backend
 
 go 1.15
 

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/linhll/go-todo/router"
+import "github.com/tl-dream-team/todo-backend/router"
 
 func main() {
 	r := router.Router()

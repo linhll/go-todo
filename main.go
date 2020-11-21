@@ -1,13 +1,9 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import "github.com/linhll/go-todo/router"
 
 func main() {
-	router := gin.Default()
+	r := router.Router()
 
-	router.GET("/api", func(c *gin.Context) {
-		c.String(200, "It's work!")
-	})
-
-	router.Run()
+	r.Run()
 }
